@@ -29,12 +29,12 @@ Where $E_{cont}$ enforces continuity, $E_{curv}$ enforces smoothness, and $E_{im
 ### 1. Hough Transform: Multi-Shape Detection (Lines & Circles)
 Simultaneous detection and overlay of multiple geometric primitives.
 
-![Line and Circle Detection](assets/line and circle detection.jpeg)
+![Line and Circle Detection](assets/line_and_circle_detection.jpeg)
 
 ### 2. Hough Transform: Circle Detection
 Robust detection of circular shapes using a custom accumulator.
 
-![Circle Detection](assets/circle _detection.jpeg)
+![Circle Detection](assets/circle_detection.jpeg)
 
 ### 3. Hough Transform: Ellipse Detection
 Extracting elliptical structures by mapping pixels to the required parameter space.
