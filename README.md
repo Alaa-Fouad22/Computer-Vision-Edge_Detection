@@ -14,7 +14,7 @@ Implemented the complete 5-step Canny edge detection pipeline from scratch:
 * Edge Tracking by Hysteresis.
 
 ### 2. Hough Transform (Shape Detection)
-* **Hough Circles:** Utilizes a highly optimized 1D accumulator to detect circular shapes.
+* **Hough Circles:** Utilizes a highly optimized accumulator to detect circular shapes.
 * **Hough Ellipses & Lines:** Extracts generalized geometric shapes from binary edge maps by mapping pixels to parameter space.
 
 ### 3. Active Contours (Snakes)
@@ -26,26 +26,26 @@ Where $E_{cont}$ enforces continuity, $E_{curv}$ enforces smoothness, and $E_{im
 
 ## 📸 Application Output Gallery
 
-### 1. Active Contours (Snakes) Tracking
-Visualizing the iterative process of the contour snapping to the object's boundaries by minimizing energy functions.
+### 1. Hough Transform: Multi-Shape Detection (Lines & Circles)
+Simultaneous detection and overlay of multiple geometric primitives.
 
-![Active Contour Initialization](assets/active_contour_1.jpeg)
-![Active Contour Convergence](assets/active_contour_2.jpeg)
+![Line and Circle Detection](assets/line_and_circle_detection.jpeg)
 
 ### 2. Hough Transform: Circle Detection
-Robust detection of circular shapes using a custom 1D accumulator for memory optimization.
+Robust detection of circular shapes using a custom accumulator.
 
 ![Circle Detection](assets/circle_detection.jpeg)
 
 ### 3. Hough Transform: Ellipse Detection
-Extracting elliptical structures mapping pixels to the required parameter space.
+Extracting elliptical structures by mapping pixels to the required parameter space.
 
 ![Ellipse Detection](assets/ellipse_detection.jpeg)
 
-### 4. Hough Transform: Multi-Shape Detection (Lines & Circles)
-Simultaneous detection and overlay of multiple geometric primitives.
+### 4. Active Contours (Snakes) Tracking
+Visualizing the iterative process of the contour snapping to the object's boundaries by minimizing energy functions.
 
-![Line and Circle Detection](assets/line_and_circle_detection.jpeg)
+![Active Contour Initialization](assets/Active_contour.jpeg)
+![Active Contour Convergence](assets/Active_contour2.jpeg)
 
 ---
 
