@@ -39,7 +39,7 @@ Robust detection of circular shapes using a custom accumulator.
 ### 3. Hough Transform: Ellipse Detection
 Extracting elliptical structures by mapping pixels to the required parameter space.
 
-![Ellipse Detection](assets/ellipse_setection.jpeg)
+![Ellipse Detection](assets/ellipse_detection.jpeg)
 
 ### 4. Active Contours (Snakes) Tracking
 Visualizing the iterative process of the contour snapping to the object's boundaries by minimizing energy functions.
