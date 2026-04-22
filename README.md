@@ -30,7 +30,7 @@ Where $E_{cont}$ enforces continuity, $E_{curv}$ enforces smoothness, and $E_{im
 Visualizing the iterative process of the contour snapping to the object's boundaries by minimizing energy functions.
 
 ![Active Contour Initialization](assets/active_contour_1.jpeg)
-![Active Contour Convergence](assets/active_contour_2.jpeg)
+![Active Contour Convergence](assets/Active_contour2.jpeg)
 
 ### 2. Hough Transform: Circle Detection
 Robust detection of circular shapes using a custom 1D accumulator for memory optimization.
