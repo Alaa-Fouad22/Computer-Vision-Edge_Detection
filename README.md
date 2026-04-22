@@ -45,7 +45,7 @@ Extracting elliptical structures mapping pixels to the required parameter space.
 ### 4. Hough Transform: Multi-Shape Detection (Lines & Circles)
 Simultaneous detection and overlay of multiple geometric primitives.
 
-![Line and Circle Detection](assets/line_and_circle_detection.jpeg)
+![Line and Circle Detection](assets/line _and _circle _detection.jpeg)
 
 ---
 
